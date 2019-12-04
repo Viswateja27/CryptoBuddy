@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">CB(Core)</string>
+
+    <string name="create_acco">
+
+Create Account
+</string>
+
+    <string name="sign_up">
+
+SIGN UP
+</string>
+
+    <string name="confirm_pas">
+
+Confirm Password
+</string>
+
+    <string name="create_pass">
+
+Create Password
+</string>
+
+    <string name="name">
+
+Name
+</string>
+
+    <string name="mobile_numb">
+
+E-mail
+</string>
+
+    <string name="cryptobuddy">
+
+CryptoBuddy
+</string>
+
+    <string name="password">
+
+Password
+</string>
+
+    <string name="log_in">
+
+LOG IN
+</string>
+
+    <string name="or">
+
+OR
+</string>
+
+    <string name="recents">
+
+Recents
+</string>
+
+    <string name="encrypt_fil">
+
+ENCRYPT FILE
+</string>
+
+    <string name="decrypt_fil">
+
+DECRYPT FILE
+</string>
+
+    <string name="attach_file">
+
+Attach File to Encrypt
+</string>
+
+    <string name="attach_filed">
+
+Attach File to Decrypt
+</string>
+
+</resources>

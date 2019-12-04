@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="281sp"
+        android:layout_height="39sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90sp"
+        android:hint="KEY (16 Character)"
+        android:textColor="#FFE500"
+        android:inputType="text"
+        android:textColorHint="#FFE500"
+        android:gravity="center_horizontal|center_vertical"
+        android:alpha="0.5"
+        />
+    <View
+
+        android:layout_width="286dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/line"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/noun_attach"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/noun_attach_89532"
+        />
+    <TextView
+        android:id="@+id/attach_file"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:onClick="add_enc"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:text="@string/attach_file"
+        android:textAppearance="@style/attach_file"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+</RelativeLayout>

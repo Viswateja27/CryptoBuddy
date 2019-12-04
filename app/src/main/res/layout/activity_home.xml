@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+    <TextView
+        android:id="@+id/recents"
+        android:layout_width="88dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:text="@string/recents"
+        android:textAppearance="@style/recents"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+    <View
+
+        android:layout_width="315dp"
+        android:layout_height="171dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30.04dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:background="@drawable/rrectangle"
+        />
+    <View
+        android:layout_width="314.08dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195.5dp"
+        android:background="@drawable/line"
+        />
+    <TextView
+        android:id="@+id/encrypt_fil"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:onClick="enc"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="399dp"
+        android:background="@drawable/rectangle"
+        android:text="@string/encrypt_fil"
+        android:textAppearance="@style/encrypt_fil"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/decrypt_fil"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:onClick="decr"
+        android:background="@drawable/rectangle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="471dp"
+        android:text="@string/decrypt_fil"
+        android:textAppearance="@style/decrypt_fil"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+</RelativeLayout>

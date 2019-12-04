@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="#000000"
+   >
+
+
+<RelativeLayout
+android:id="@+id/noun_encryp"
+android:layout_width="100dp"
+android:layout_height="125dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="137dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="177dp"
+
+android:background="#00000000">
+
+
+
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/noun_encryption_1378916"
+    />
+
+</RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/create_acco"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="326dp"
+        android:text="@string/create_acco"
+        android:textAppearance="@style/create_acco"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:onClick="signup"
+        android:background="@drawable/rectangle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="683dp"
+        android:text="@string/sign_up"
+        android:textColor="#000000"
+        android:textAppearance="@style/sign_up"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+    <EditText
+        android:id="@+id/confirm_pas"
+        android:layout_width="281dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="608dp"
+        android:hint="@string/confirm_pas"
+        android:textColor="#FFE500"
+        android:textColorHint="#FFE500"
+        android:gravity="center_horizontal|center_vertical"
+        android:alpha="0.5"
+        />
+    <View
+        android:id="@+id/line"
+        android:layout_width="286dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="648dp"
+        android:background="@drawable/line"
+        />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="281dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="544dp"
+        android:textColor="#FFE500"
+        android:hint="@string/create_pass"
+        android:textColorHint="#FFE500"
+        android:gravity="center_horizontal|center_vertical"
+        android:alpha="0.5"
+        />
+    <View
+        android:layout_width="286dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="584dp"
+        android:background="@drawable/line"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="281dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="405dp"
+        android:hint="@string/name"
+        android:textColor="#FFE500"
+        android:textColorHint="#FFE500"
+        android:gravity="center_horizontal|center_vertical"
+        android:alpha="0.5"
+        />
+    <View
+        android:layout_width="286dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/line"
+        />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="281dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="469dp"
+        android:hint="@string/mobile_numb"
+        android:textColor="#FFE500"
+        android:textColorHint="#FFE500"
+        android:gravity="center_horizontal|center_vertical"
+        android:alpha="0.5"
+        />
+    <View
+        android:layout_width="286dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="509dp"
+        android:background="@drawable/line"
+        />
+
+</RelativeLayout>

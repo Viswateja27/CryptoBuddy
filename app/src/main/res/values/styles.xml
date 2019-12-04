@@ -1,0 +1,195 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+        <style name="create_acco">
+
+            <item name="android:textSize">
+                30sp
+            </item>
+
+            <item name="android:textColor">
+                #FFE500
+            </item>
+
+        </style>
+
+
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="confirm_pas">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="create_pass">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="name">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="mobile_numb">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="cryptobuddy">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="password">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="log_in">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="or">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="recents">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+    <style name="encrypt_fil">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="decrypt_fil">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="attach_file">
+
+    <item name="android:textSize">
+        20sp
+    </item>
+
+    <item name="android:textColor">
+        #FFE500
+    </item>
+
+</style>
+
+    <style name="attach_filed">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #FFE500
+        </item>
+
+    </style>
+
+
+</resources>
